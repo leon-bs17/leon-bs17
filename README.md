@@ -62,9 +62,9 @@ Abaixo estão as ferramentas e linguagens que utilizo no meu dia a dia de desenv
 </a>
 
 <div style="margin-top: 8px;">
-  <!-- O Streak stats do Heroku é super estável e carrega de primeira -->
+  <!-- Usando o servidor streak-stats.demolab.com que é o host oficial e atualizado do projeto -->
   <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=leon-bs17&theme=dark&hide_border=true&background=0d1117&ring=10B981&fire=10B981&currStreakLabel=10B981&sideLabels=8b949e&dates=8b949e&stroke=10B981" alt="GitHub Streak" />
+    <img width="100%" src="https://streak-stats.demolab.com/?user=leon-bs17&theme=dark&hide_border=true&background=0d1117&ring=10B981&fire=10B981&currStreakLabel=10B981&sideLabels=8b949e&dates=8b949e&stroke=10B981" alt="GitHub Streak" />
   </a>
 </div>
 
