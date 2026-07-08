@@ -1,0 +1,34 @@
+name: Generate Streak Stats SVG
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Executa todo dia à meia-noite UTC
+  workflow_dispatch: # Permite rodar manualmente pela aba Actions do GitHub
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/streak-stats.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Streak Stats SVG
+        run: |
+          mkdir -p assets
+          curl -o assets/streak-stats.svg "https://streak-stats.demolab.com?user=leon-bs17&theme=dark&hide_border=true&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981&sideLabels=8b949e&dates=8b949e&stroke=10b981"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak-stats.svg
+          git commit -m "chore: update streak stats card" || exit 0
+          git push

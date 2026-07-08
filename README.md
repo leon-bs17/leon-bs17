@@ -63,9 +63,9 @@ Abaixo estão as ferramentas e linguagens que utilizo no meu dia a dia de desenv
 
 <br/><br/>
 
-<!-- Usando a URL limpa do demolab (sem barra antes da interrogação e sem parâmetros extras de cores complexos) e um novo cache bust (v=4) -->
+<!-- Usando imagem SVG ESTÁTICA local gerada via GitHub Actions. Isso elimina 100% qualquer chance de imagem quebrada por CDN ou Proxy. -->
 <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-  <img width="100%" src="https://streak-stats.demolab.com?user=leon-bs17&theme=dark&hide_border=true&v=4" alt="GitHub Streak" />
+  <img width="100%" src="./assets/streak-stats.svg" alt="GitHub Streak" />
 </a>
 
 </td>
