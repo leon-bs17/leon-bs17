@@ -3,17 +3,9 @@
   <img src="https://raw.githubusercontent.com/leon-bs17/leon-bs17/main/assets/banner.svg" alt="Leonardo Barroso Banner" width="100%" />
 </p>
 
-<!-- Badges Sociais Alinhadas e Minimalistas -->
+<!-- Badges Sociais Minimalistas, Alinhadas e sem Bug de Underline -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/leonardo-barroso-0409023a9" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:leonardosousa1725@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  &nbsp;&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=leon-bs17&style=for-the-badge&color=10B981&label=VISITAS" alt="Contador de Visitas" />
+  <a href="https://www.linkedin.com/in/leonardo-barroso-0409023a9" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-10B981?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:leonardosousa1725@gmail.com"><img src="https://img.shields.io/badge/Gmail-06B6D4?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
 <br/>
