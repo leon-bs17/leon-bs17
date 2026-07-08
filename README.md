@@ -63,9 +63,9 @@ Abaixo estão as ferramentas e linguagens que utilizo no meu dia a dia de desenv
 
 <br/><br/>
 
-<!-- Usando o demolab oficial (que não sofre com bloqueio de IP do GitHub) e aplicando o cache_bust (v=3) -->
+<!-- Usando a URL limpa do demolab (sem barra antes da interrogação e sem parâmetros extras de cores complexos) e um novo cache bust (v=4) -->
 <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=leon-bs17&theme=dark&hide_border=true&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981&sideLabels=8b949e&dates=8b949e&stroke=10b981&v=3" alt="GitHub Streak" />
+  <img width="100%" src="https://streak-stats.demolab.com?user=leon-bs17&theme=dark&hide_border=true&v=4" alt="GitHub Streak" />
 </a>
 
 </td>
