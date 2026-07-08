@@ -63,9 +63,9 @@ Abaixo estão as ferramentas e linguagens que utilizo no meu dia a dia de desenv
 
 <br/><br/>
 
-<!-- Usando o servidor oficial demolab com o tema dark limpo e sem wrappers divs que podem quebrar o render do markdown -->
+<!-- Restaurado o link do Herokuapp que comprovadamente carregou com sucesso no seu perfil anteriormente -->
 <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=leon-bs17&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=leon-bs17&theme=dark&hide_border=true&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981&sideLabels=8b949e&dates=8b949e&stroke=10b981" alt="GitHub Streak" />
 </a>
 
 </td>
