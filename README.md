@@ -44,26 +44,27 @@ Atualmente trabalhando com **Python (FastAPI)** e **TypeScript (Next.js)** para 
 <td valign="top" width="45%">
 
 ### 🛠️ Minhas Tecnologias
+Abaixo estão as ferramentas e linguagens que utilizo no meu dia a dia de desenvolvimento:
 
-**Linguagens**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-
-**Back-end & Banco**  
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-
-**Front-end**  
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,ts,js,fastapi,postgres,sqlite,next,react,tailwind,git,docker,vscode,github" />
+  </a>
+</p>
 
 <br/>
 
 ### 📊 Estatísticas
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=leon-bs17&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=10B981&icon_color=06B6D4&text_color=8b949e&ring_color=10B981" alt="GitHub Stats" />
+
+<!-- Usando o servidor estendido github-stats-extended que é muito mais estável e possui cache robusto -->
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <img width="100%" src="https://github-stats-extended.vercel.app/api?username=leon-bs17&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=10B981&icon_color=06B6D4&text_color=8b949e&ring_color=10B981" alt="GitHub Stats" />
 </a>
 
 <div style="margin-top: 8px;">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leon-bs17&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=10B981&text_color=8b949e" alt="Linguagens Mais Usadas" />
+  <!-- O Streak stats do Heroku é super estável e carrega de primeira -->
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=leon-bs17&theme=dark&hide_border=true&background=0d1117&ring=10B981&fire=10B981&currStreakLabel=10B981&sideLabels=8b949e&dates=8b949e&stroke=10B981" alt="GitHub Streak" />
   </a>
 </div>
 
