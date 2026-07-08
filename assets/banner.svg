@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#070a13"/>
+    </linearGradient>
+    
+    <!-- Neon Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/> <!-- Emerald -->
+      <stop offset="100%" stop-color="#06B6D4"/> <!-- Cyan -->
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="260" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Grid Overlay -->
+  <rect width="850" height="260" fill="url(#grid)" rx="16"/>
+
+  <!-- Ambient Glow Shapes -->
+  <circle cx="80" cy="50" r="100" fill="#10B981" opacity="0.12" filter="url(#neonGlow)"/>
+  <circle cx="780" cy="200" r="120" fill="#06B6D4" opacity="0.1" filter="url(#neonGlow)"/>
+  
+  <!-- Glowing Abstract Line (Wave/Tech Accent) -->
+  <path d="M -50 180 Q 200 120 425 180 T 900 130" fill="none" stroke="url(#primaryGrad)" stroke-width="3" opacity="0.45" filter="url(#subtleGlow)"/>
+  <path d="M -50 190 Q 210 100 425 190 T 900 110" fill="none" stroke="url(#primaryGrad)" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Floating Tech Elements -->
+  <g transform="translate(680, 50)" opacity="0.4">
+    <!-- Code Bracket Symbol -->
+    <path d="M 0 0 L -15 15 L 0 30 M 20 0 L 35 15 L 20 30" fill="none" stroke="url(#primaryGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#subtleGlow)"/>
+    <line x1="12" y1="2" x2="6" y2="28" stroke="url(#primaryGrad)" stroke-width="3" stroke-linecap="round" filter="url(#subtleGlow)"/>
+  </g>
+
+  <!-- Main Content Group -->
+  <g transform="translate(60, 0)">
+    <!-- Small Tag/Category -->
+    <rect x="0" y="65" width="138" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="12" cy="77" r="4" fill="#10B981"/>
+    <text x="24" y="81" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="1">PORTFÓLIO</text>
+
+    <!-- Title / Name -->
+    <text x="0" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      Leonardo Barroso
+    </text>
+
+    <!-- Subtitle / Role -->
+    <text x="0" y="172" font-family="Consolas, 'Fira Code', Monaco, monospace" font-size="18" font-weight="600" fill="url(#primaryGrad)" letter-spacing="-0.2">
+      &lt; Back-End Developer /&gt;
+    </text>
+
+    <!-- Detail text -->
+    <text x="0" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#64748B">
+      Especializado em APIs de alta performance com Python &amp; TypeScript
+    </text>
+  </g>
+
+  <!-- Border Decoration -->
+  <rect x="1" y="1" width="848" height="258" fill="none" stroke="url(#primaryGrad)" stroke-width="1.5" stroke-opacity="0.2" rx="16"/>
+</svg>
